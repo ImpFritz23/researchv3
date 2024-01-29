@@ -1,0 +1,9 @@
+npm init -y
+npm install express mysql2 jsonwebtoken bcrypt body-parser
+npm install --save-dev nodemon
+npm install cors
+
+npm install sequelize
+
+/* For GraphQL */
+npm install express-graphql
