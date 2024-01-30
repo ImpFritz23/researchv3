@@ -7,3 +7,14 @@ npm install sequelize
 
 /* For GraphQL */
 npm install express-graphql
+
+ssh-keygen
+C:\Users\E9/.ssh/id_rsa
+
+.gitignore
+  -> node_modules
+
+git init
+git branch -M main
+git add .
+git commit -m "first commit"
