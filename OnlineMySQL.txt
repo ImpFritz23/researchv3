@@ -1,0 +1,12 @@
+freemyhosting.net
+
+fimperial@ncf.edu.ph
+F1r1i1t1z***
+
+
+
+Server: sql6.freemysqlhosting.net
+Name: sql6680705
+Username: sql6680705
+Password: 4WgtKzvg5p
+Port number: 3306

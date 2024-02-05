@@ -1,8 +1,8 @@
 
 module.exports = {
 
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'research'
+    host: 'sql6.freemysqlhosting.net',
+    user: 'sql6680705',
+    password: '4WgtKzvg5p',
+    database: 'sql6680705'
 };

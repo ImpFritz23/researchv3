@@ -93,8 +93,13 @@ const PORT = process.env.PORT || 4000;
 app.use(bodyParser.json());
 
 app.get('/public', (req, res) => {
-    res.json({ message: 'ExpressJS Backend Using NodeJS...' });
+    res.json({ message: 'ExpressJS Backend Using ExpressJS...' });
 });
+
+app.get('/test', (req, res) => {
+    res.json({ message: 'ExpressJS Backend Using ExpressJS...' });
+});
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
