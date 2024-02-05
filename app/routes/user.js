@@ -132,7 +132,7 @@ module.exports = function(app) {
         }
     });
 
-    app.post('/api/user', authJwt.AuthenticateToken, async (req, res) => {
+    app.post('/api/user', async (req, res) => {
   
         try {
         
