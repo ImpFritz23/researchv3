@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 const secret = require("../config/auth.config.js");
 
-const db = mysql.createConnection(require("../config/db.config.js"));
+const db = mysql.createPool(require("../config/db.config.js"));
 
 const authJwt = require("../middleware/");
 
